@@ -11,7 +11,7 @@ function App() {
       <div className={style.container}>
         <Filter />
         {!isLoading ? <Movies /> : "Загрузка..."}
-        {!movies && "Извините,мы ничего не нашли "}
+        
       </div>
     </>
   );
